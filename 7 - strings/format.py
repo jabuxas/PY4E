@@ -6,3 +6,4 @@ print("I love %(language)s" % {"language": "Python"})
 
 ask = input("Who do you love? ")
 print("You love %(ask)s" % {"ask": ask})
+print("You love %s and %s" % ("me", ask))
