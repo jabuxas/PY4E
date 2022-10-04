@@ -3,7 +3,7 @@ smallest = None
 while True:
     num = input("Enter a number: ")
     if num == "done":
-        break            
+        break
     try:
         num = int(num)
     except:
@@ -14,9 +14,9 @@ while True:
     if smallest is None:
         smallest = num
     if num > largest:
-       largest = num
+        largest = num
     if num < smallest:
-       smallest = num
+        smallest = num
     # print(num)
 
 print("Maximum is", largest)
