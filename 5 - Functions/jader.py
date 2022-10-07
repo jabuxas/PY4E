@@ -1,17 +1,18 @@
 # Define função que transforma uma letra dada em um número
 def nota(letra):
-    if letra == 'A':
+    if letra == "A":
         letra = 4
         return letra
-    elif letra == 'B':
+    elif letra == "B":
         letra = 3
         return letra
-    elif letra == 'C':
+    elif letra == "C":
         letra = 2
         return letra
     else:
         letra = 1
         return letra
+
 
 # Pede input usuário para argumentos para ser usados na função
 
